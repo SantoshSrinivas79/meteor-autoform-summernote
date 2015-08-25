@@ -1,7 +1,7 @@
 Package.describe({
   name: 'chroma:autoform-summernote',
-  summary: 'use chroma:reactive-summernote fork with aldeed:autoform',
-  version: '0.4.2',
+  summary: 'use chroma:summernote with aldeed:autoform',
+  version: '5.0.0',
   git: 'https://github.com/structuresound/meteor-autoform-summernote.git'
 });
 
