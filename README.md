@@ -60,3 +60,26 @@ See all available summernote options [here](http://summernote.org/#/deep-dive#ap
 ## Summernote callbacks
 
 See all available summernote calbacks [here](http://summernote.org/#/deep-dive#callbacks).
+
+## Version history
+
+- `5.0.2` - S3 support
+- `5.0.0` - Initial publish for autoform 5.
+
+## Notes
+
+the summernote project is here:
+https://github.com/summernote/summernote
+
+this package uses code based on greenewolf's reactive summernote solution here:
+https://github.com/summernote/summernote/issues/1064
+
+## Contributing
+
+yes, please.
+
+***
+
+[ChromaPDX](http://github.com/ChromaPDX)
+
+![](https://avatars0.githubusercontent.com/u/5441664?v=3&s=90)
