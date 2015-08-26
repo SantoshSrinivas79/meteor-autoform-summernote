@@ -20,4 +20,9 @@ Package.onUse(function(api) {
     'lib/client/templates.js',
     'lib/client/autoform-summernote.js'
   ], 'client');
+
+  api.addFiles([
+    'lib/server/publish.js'
+  ], 'server');
+
 });

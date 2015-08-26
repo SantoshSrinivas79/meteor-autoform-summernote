@@ -30,8 +30,13 @@ var BookSchema = new SimpleSchema({
     autoform: {
       afFieldInput: {
         type: 'summernote',
-        class: 'editor' // optional
-        settings: // summernote options goes here
+        class: 'editor', // optional
+        settings: // summernote options goes here (minHeight: and height: are useful)
+        // if you want to use cfs instead of base64 inlining your images
+        imageCollection='attachedImages'
+        // if using s3 provide at least a bucket, and maybe a subfolder
+        s3Bucket='bucket name'
+        s3subFolder='offering'
       }
     }
   }
