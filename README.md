@@ -35,8 +35,8 @@ var BookSchema = new SimpleSchema({
         // if you want to use cfs instead of base64 inlining your images
         imageCollection='attachedImages'
         // if using s3 provide at least a bucket, and maybe a subfolder
-        s3Bucket='bucket name'
-        s3subFolder='offering'
+        s3bucket='bucket name'
+        s3subfolder='offering'
       }
     }
   }
