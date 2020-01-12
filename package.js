@@ -12,7 +12,7 @@ Package.onUse(function(api) {
     'templating',
     'underscore',
     'reactive-var',
-    'aldeed:autoform@5.1.2'
+    'aldeed:autoform@6.3.0'
   ], 'client');
 
   api.addFiles([
